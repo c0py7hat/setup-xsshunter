@@ -32,6 +32,7 @@ cd ~/xsshunter/gui/
 virtualenv env
 sudo mkdir /opt/xsshunter
 sudo cp ~/xsshunter/* /opt/xsshunter/ -r
+sudo mkdir /opt/xsshunter/api/uploads
 sudo adduser xsshunter --shell /usr/sbin/nologin --disabled-login --disabled-password
 sudo addgroup --system certs
 sudo adduser xsshunter certs
