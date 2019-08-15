@@ -1,0 +1,11 @@
+[Unit]
+Description=XSSHunter API Service
+After=network.target
+
+[Service]
+ExecStart=/opt/xsshunter/api/start.sh
+Type=simple
+User=xsshunter
+
+[Install]
+WantedBy=default.target

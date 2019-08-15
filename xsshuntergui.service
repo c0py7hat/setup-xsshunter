@@ -1,0 +1,11 @@
+[Unit]
+Description=XSSHunter GUI Service
+After=network.target
+
+[Service]
+ExecStart=/opt/xsshunter/gui/start.sh
+Type=simple
+User=xsshunter
+
+[Install]
+WantedBy=default.target
